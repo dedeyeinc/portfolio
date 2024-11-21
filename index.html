@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DED EYE Inc.</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <section class="showcase">
+        
+        <header class="header" id="header">
+            <a href="./"><h2 class="logo"></h2></a>
+            <label class="hamburger-menu" id="hamburger-menu">
+                <input type="checkbox">
+            </label>
+            <aside class="menu" id="menu">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#">Reels</a></li>
+                    <li><a href="./codeMarket">Market</a></li>
+                    <li><a href="./games">Games</a></li>
+                    <li><a href="./GalaxyGenerator">Three JS</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Join Us</a></li>
+                </ul>
+            </aside>
+            
+            <div class="overlay"></div>
+        </header>
+        
+        <video src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/ROTR_Boss_demo_001.m4v?raw=true" muted loop autoplay></video>
+        <div class="text">
+            <h2>DED EYE Inc.</h2>
+            <h3>Creativity is our thing</h3>
+            <p>We strive to bring creative quality forward. This is what we do, this is our mark on the world.</p>
+            <a href="#">SEE OUR SHOWREELS</a>
+        </div>
+        
+    </section>
+
+    <div class="wrapper">
+        <ul class="social">
+            <li><a href="https://www.facebook.com/dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_facebook.png?raw=true" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/company/ded-eye-inc/" target="_blank"><img src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_linkedin.png?raw=true" alt=""></a></li>
+            <li><a href="https://www.youtube.com/@dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_youtube.png?raw=true" alt=""></a></li>
+            <li><a href="https://www.pinterest.ca/DEDEYEInc/" target="_blank"><img src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_pinterest.png?raw=true" alt=""></a></li>
+            <li><a href="https://www.instagram.com/ded_eye_inc/" target="_blank"><img src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_instagram.png?raw=true" alt=""></a></li>
+        </ul>
+    </div>
+    
+    
+    <script>
+        const toggle = document.querySelector('.hamburger-menu')
+        const overlay = document.querySelector('.overlay')
+
+        toggle.addEventListener('click', function () {
+            overlay.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
