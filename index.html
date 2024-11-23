@@ -8,19 +8,19 @@
     <!-- --------- Scroll Reveal Library --------- -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- --------- CSS Files --------- -->
-  <link rel="stylesheet" crossorigin href="./assets/index-Dxwmoc-p.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-HgNubLbn.css">
 </head>
 
 <body>
     <div class="overflow-wrapper">
         <div class="background-video-container">
             <div class="background-div">
-                <video class="background-video" src="./videos/PortfolioWebsite_Background_handbrake.m4v" muted loop autoplay></video>
+                <video class="background-video" src="https://github.com/dedeyeinc-git/portfolio.github.io/blob/71b90308d061053f9bd4baab1bb1a5586821cb94/Dependencies/videos/PortfolioWebsite_Background_handbrake.m4v?raw=true" muted loop autoplay></video>
             </div>
         </div>
         <section class="banner">
             <header class="header" id="header">
-                <a href="./" class="logo"><img src="./images/Maya_Joints_M.png"></a>
+                <a href="./" class="logo"><img src="https://github.com/dedeyeinc-git/portfolio.github.io/blob/71b90308d061053f9bd4baab1bb1a5586821cb94/Dependencies/Maya_Joints_M.png?raw=true"></a>
                 <div class="links">
                     <ul class="top-menu">
                         <li><a href="./" class="nav-link">Home</a></li>
@@ -77,11 +77,15 @@
                         
                     </div>
                     <div class="image_preview_container">
-                        <div class="portrait"><img src="./images/portfolioPhoto.jpg"></div>
+                        <div class="portrait"><img src="https://github.com/dedeyeinc-git/portfolio.github.io/blob/71b90308d061053f9bd4baab1bb1a5586821cb94/Dependencies/portfolioPhoto.jpg?raw=true"></div>
+                    </div>
+                    <div class="scrollDown_button_div">
+                        <a class="scrollDown_button" href="#showreel"></a>
                     </div>
 
-                    <div class="showreel">
-                        <video class="showreel-video" src="./videos/ROTR_Boss_demo_001.m4v" muted loop autoplay></video>
+                    <div class="showreel" id="showreel">
+                        <button class="showreel_playBtn" id="showreel_playBtn" onclick="play_video()"></button>
+                        <video class="showreel_video" id="showreel_video" controls="controls" src="https://github.com/dedeyeinc-git/portfolio.github.io/blob/71b90308d061053f9bd4baab1bb1a5586821cb94/Dependencies/videos/ROTR_Boss_demo_001.m4v?raw=true"></video>
                     </div>
                     <div class="grid-portfolio">
                         <div class="item1">
@@ -105,15 +109,6 @@
         </section>
     </div>
     <!-- Javascript Files -->
-    <script src="./app.js"></script>
-    <script>
-        const toggle = document.querySelector('.hamburger-menu')
-        const overlay = document.querySelector('.overlay')
-
-        toggle.addEventListener('click', function () {
-            overlay.classList.toggle('active')
-        })
-
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
