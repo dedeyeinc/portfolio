@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- --------- Scroll Reveal Library --------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- --------- CSS Files --------- -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="overflow-wrapper">
+        <div class="background-video-container">
+            <div class="background-div">
+                <video class="background-video" src="https://github.com/dedeyeinc-git/Dependencies/blob/70cdd840a399ef8b4a5740bdff18e07d8f4e3e5b/videos/PortfolioWebsite_Background_handbrake.m4v?raw=true" muted loop autoplay></video>
+            </div>
+        </div>
+        <section class="banner">
+            <header class="header" id="header">
+                <a href="./" class="logo"><img src="https://github.com/dedeyeinc-git/Dependencies/blob/70cdd840a399ef8b4a5740bdff18e07d8f4e3e5b/Maya_Joints_M.png?raw=true"></a>
+                <div class="links">
+                    <ul class="top-menu">
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/" class="nav-link">Home</a></li>
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/#showreel_text" class="nav-link">Reels</a></li>
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/#portfolio_text" class="nav-link">Portfolio</a></li>
+                        <li><a href="./games" class="nav-link">Games</a></li>
+                        <li><a href="https://dedeyeinc.com/GalaxyGenerator" class="nav-link">Three JS</a></li>
+                        <li><a href="#" class="nav-link">About Me</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <label class="hamburger-menu" id="hamburger-menu">
+                    <input type="checkbox">
+                </label>
+                <aside class="side-menu" id="side-menu">
+                    <ul>
+                        <a href="./" class="side-logo"></a>
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/" class="side-nav-link">Home</a></li>
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/#showreel_text" class="side-nav-link">Reels</a></li>
+                        <li><a href="https://dedeyeinc-git.github.io/portfolio.github.io/#showreel_text" class="side-nav-link">Portfolio</a></li>
+                        <li><a href="./games" class="side-nav-link">Games</a></li>
+                        <li><a href="./GalaxyGenerator" class="side-nav-link">Three JS</a></li>
+                        <li><a href="#" class="side-nav-link">About Me</a></li>
+                        <li><a href="#" class="side-nav-link">Contact</a></li>
+                    </ul>
+                </aside>
+                <div class="overlay"></div>
+            </header>
+        </section>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2> Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="8eca5a46-ba29-4ba9-85fd-189899e8d408">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="textarea" required></textarea>
+                <div class="front-page-buttons">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+                
+            </form>
+            <div class="contact-right">
+                <img src="https://github.com/dedeyeinc-git/Dependencies/blob/d55b626e615e1a49f7ffedf409718a17afe83543/Contact_Form_Images.png?raw=true" alt="">
+    
+            </div>
+    </div>
+    
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
