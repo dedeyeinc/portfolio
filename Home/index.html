@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- --------- Image when Shared --------- -->
+    <meta property="og:image" content="https://github.com/dedeyeinc/Dependencies/blob/42492d9d24322ff2fba19b1288a65201b20eb484/banner1.jpg?raw=true">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+
     <title>Mathias Villalobos</title>
     <!-- --------- Scroll Reveal Library --------- -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- --------- CSS Files --------- -->
-  <script type="module" crossorigin src="./assets/index-Qgzn3hUZ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-zkDgPAS-.css">
+    <!-- --------- Favicon --------- -->
+    <link rel="icon" type="iamge/x-icon" href="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/Maya_Joints_M.png?raw=true"/>
+  <script type="module" crossorigin src="./assets/index-of4-vu3a.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D0HaNC49.css">
 </head>
 
 <body>
@@ -25,11 +34,11 @@
                 <div class="links">
                     <ul class="top-menu">
                         <li><a href="https://dedeyeinc.com" class="nav-link">Home</a></li>
-                        <li><a href="#showreel_text" class="nav-link">Reels</a></li>
-                        <li><a href="#portfolio_text" class="nav-link">Portfolio</a></li>
+                        <li><a href="#showreel" class="nav-link">Reels</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                         <!-- <li><a href="https://dedeyeinc.com/Games" class="nav-link">Games</a></li> -->
                         <!-- <li><a href="https://dedeyeinc.com/GalaxyGenerator" class="nav-link">Three JS</a></li> -->
-                        <li><a href="https://dedeyeinc.com/AboutMe" class="nav-link">About Me</a></li>
+                        <li><a href="#aboutme" class="nav-link">About Me</a></li>
                         <li><a href="https://dedeyeinc.com/Contact" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
@@ -44,7 +53,7 @@
                         <li><a href="#portfolio_text" class="side-nav-link">Portfolio</a></li>
                         <!-- <li><a href="https://dedeyeinc.com/Games" class="side-nav-link">Games</a></li>
                         <li><a href="https://dedeyeinc.com/GalaxyGenerator" class="side-nav-link">Three JS</a></li> -->
-                        <li><a href="https://dedeyeinc.com/AboutMe" class="side-nav-link">About Me</a></li>
+                        <li><a href="#aboutme" class="side-nav-link">About Me</a></li>
                         <li><a href="https://dedeyeinc.com/Contact" class="side-nav-link">Contact</a></li>
                     </ul>
                 </aside>
@@ -63,62 +72,94 @@
                             <a href="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/Mathias_Villalobos_Resume.pdf?raw=true" class="download-cv-button">Download CV</a>
                             <a href="https://dedeyeinc.com/Contact" class="contact-button">Contact</a>
                         </div>
-
                     </div>
+
                     <div class="image_preview_container">
                         <div class="portrait"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/portfolioPhoto1.jpg?raw=true"></div>
                     </div>
+
                     <div class="scrollDown_button_showreel_div">
-                        <a class="scrollDown_button" href="#showreel_text"></a>
+                        <a class="scrollDown_button" href="#showreel"></a>
                     </div>
 
-                    <div class="showreel" id="showreel">
-                        <h3 class="showreel_text" id="showreel_text"> Showreel</h3>
+                    <div class="showreel">
+                        <h3 class="showreel_text" id="showreel"> Showreel<hr></h3>
+                        
                         <!--<button class="showreel_playBtn" id="showreel_playBtn" onclick="play_video()"></button>-->
                         <video class="showreel_video" id="showreel_video" controls="controls" src="https://github.com/dedeyeinc/Dependencies/blob/219772ea530e487ff4c0156f5e754f84f194fae4/videos/PR_Portfolio2024.mp4?raw=true"></video>
                         
                         <div class="scrollDown_button_portfolio_div">
-                            <a class="scrollDown_button" href="#portfolio_text"></a>
+                            <a class="scrollDown_button" href="#portfolio"></a>
                         </div>
                         
-                        <h3 class="portfolio_text" id="portfolio_text"> Portfolio</h3>
-                        <div class="grid-portfolio" id="portfolio">
-                            <a href="https://dedeyeinc.com/AssetPage_IbernianWarrior"  class="item-tall" id="item1">
-                                <p class="piece-text">Ibernian Warrior</p>
-                                <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/assets/IbernianWarrior/Screenshot_IbernianWarrior.jpg?raw=true">
-                            </a>
-                            <a class="item-short" id="item2">
-                                <p class="piece-text">Portfolio piece 2</p>
-                                <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
-                            </a>
-                            <a class="item-tall" id="item3">
-                                <p class="piece-text">Portfolio piece 3</p>
-                                <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
-                            </a>
-                            <a class="item-short" id="item4">
-                                <p class="piece-text">Portfolio piece 4</p>
-                                <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
-                            </a>
+                        
+                        <div class="portfolio_div">
+                            <h3 class="portfolio_text"  id="portfolio"> Portfolio<hr></h3>
                             
+                            <div class="grid-portfolio">
+                                <a href="https://dedeyeinc.com/AssetPage_IbernianWarrior"  class="item-tall" id="item1">
+                                    <p class="piece-text">Ibernian Warrior</p>
+                                    <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/assets/IbernianWarrior/Screenshot_IbernianWarrior.jpg?raw=true">
+                                </a>
+                                <a class="item-short" id="item2">
+                                    <p class="piece-text">Portfolio piece 2</p>
+                                    <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
+                                </a>
+                                <a class="item-tall" id="item3">
+                                    <p class="piece-text">Portfolio piece 3</p>
+                                    <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
+                                </a>
+                                <a class="item-short" id="item4">
+                                    <p class="piece-text">Portfolio piece 4</p>
+                                    <img class="piece" src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/acolyte_01_v002.jpg?raw=true">
+                                </a>
+                                
+                            </div>
+                            <div class="portfolio-background-video-container">
+                                <div class="portfolio-background-div">
+                                    <video class="portfolio-background-video" src="https://github.com/dedeyeinc/Dependencies/blob/5c7fe5d5458a14c0d5f590310dc1364397e31e8d/videos/showReel_2020_Background.mp4?raw=true" muted loop autoplay></video>
+                                </div>
+                            </div>
+                            <div class="scrollDown_button_about_me_div">
+                                <a class="scrollDown_button" href="#aboutme"></a>
+                            </div>
                         </div>
-                        
-                        <div class="social">
-                            <li><a href="https://www.facebook.com/dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_facebook.png?raw=true" alt=""></a></li>
-                            <li><a href="https://www.linkedin.com/company/ded-eye-inc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_linkedin.png?raw=true" alt=""></a></li>
-                            <li><a href="https://www.youtube.com/@dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_youtube.png?raw=true" alt=""></a></li>
-                            <!-- <li><a href="https://www.pinterest.ca/DEDEYEInc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_pinterest.png?raw=true" alt=""></a></li> -->
-                            <li><a href="https://www.instagram.com/ded_eye_inc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_instagram.png?raw=true" alt=""></a></li>
+
+                        <div class="about_me_div_container">
+                            <h2 id="aboutme">About Me<hr></h2>
+                            
+                            <div class="about_me_grid" >
+                                <div class="about_me_div">
+                                    <div class="about_me_text">
+                                        <p>Hello, I'm Mathias Villalobos. I've been rigging, developing pipelines, tools, auto-rigs, and more for the last 8 years.
+                                            I've been passionate about film, television, and video games my whole life. I've helped great teams achieve marvelous things,
+                                            from small to large studios. Professionally, I've worked on and contributed to many different incredible TV shows like The Boys, Umbrella
+                                            Academy, HALO, Star Trek. I've worked on video games, like Clash of Clans and Storylines. On my spare time, I love to draw and bring concepts 
+                                            through modeling, rigging, and animation phases; while creating tools helps streamline the workflow, the game development brings the 
+                                            interactivity and feeling of life to the characters. I also enjoy writing stories for my characters, filling their background with deep lore. 
+
+                                        </p>
+                                    </div>
+
+                                    <div class="about_me_image_preview_container">
+                                        <div class="about_me_portrait"><img src="https://github.com/dedeyeinc/Dependencies/blob/a383d339475581c551f35ddd2625d1a0cb957ec7/about_me_photo.jpg?raw=true"></div>
+                                    </div>
+                                </div>
+                                <div class="social">
+                                    <li><a href="https://www.facebook.com/dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_facebook.png?raw=true" alt=""></a></li>
+                                    <li><a href="https://www.linkedin.com/company/ded-eye-inc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_linkedin.png?raw=true" alt=""></a></li>
+                                    <li><a href="https://www.youtube.com/@dedeyeinc" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_youtube.png?raw=true" alt=""></a></li>
+                                    <!-- <li><a href="https://www.pinterest.ca/DEDEYEInc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_pinterest.png?raw=true" alt=""></a></li> -->
+                                    <li><a href="https://www.instagram.com/ded_eye_inc/" target="_blank"><img src="https://github.com/dedeyeinc/Dependencies/blob/90c49d3b97162ab538c775e45984b13a9a5cddd7/btn_icon_sns_instagram.png?raw=true" alt=""></a></li>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
             </section>
         </section>
-        <!-- <div class="portfolio-background-video-container">
-            <div class="portfolio-background-div">
-                <video class="portfolio-background-video" src="https://github.com/dedeyeinc/Dependencies/blob/5c7fe5d5458a14c0d5f590310dc1364397e31e8d/videos/showReel_2020_Background.mp4?raw=true" muted loop autoplay></video>
-            </div>
-        </div> -->
+        
     </div>
     <!-- Javascript Files -->
 </body>
