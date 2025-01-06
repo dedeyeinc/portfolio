@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Page</title>
+    <!-- --------- Scroll Reveal Library --------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- --------- CSS Files --------- -->
+  <script type="module" crossorigin src="./assets/index-Wnb8Zj_l.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CcQUBxFq.css">
+</head>
+
+<body>
+    <div class="overflow-wrapper">
+        <div class="background-video-container">
+            <div class="background-div">
+                <video class="background-video"
+                    src="https://github.com/dedeyeinc-git/Dependencies/blob/70cdd840a399ef8b4a5740bdff18e07d8f4e3e5b/videos/PortfolioWebsite_Background_handbrake.m4v?raw=true"
+                    muted loop autoplay></video>
+            </div>
+        </div>
+        <section class="banner">
+            <header class="header" id="header">
+                <a href="https://dedeyeinc.com" class="logo"><img
+                        src="https://github.com/dedeyeinc-git/Dependencies/blob/70cdd840a399ef8b4a5740bdff18e07d8f4e3e5b/Maya_Joints_M.png?raw=true"></a>
+                <div class="links">
+                    <ul class="top-menu">
+                        <li><a href="https://dedeyeinc.com" class="nav-link">Home</a></li>
+                        <li><a href="https://dedeyeinc.com/#showreel_text" class="nav-link">Reels</a></li>
+                        <li><a href="https://dedeyeinc.com/#portfolio_text" class="nav-link">Portfolio</a></li>
+                        <!-- <li><a href="https://dedeyeinc.com/Games" class="nav-link">Games</a></li>
+                        <li><a href="https://dedeyeinc.com/GalaxyGenerator" class="nav-link">Three JS</a></li> -->
+                        <li><a href="https://dedeyeinc.com/AboutMe" class="nav-link">About Me</a></li>
+                        <li><a href="https://dedeyeinc.com/Contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <label class="hamburger-menu" id="hamburger-menu">
+                    <input type="checkbox">
+                </label>
+                <aside class="side-menu" id="side-menu">
+                    <ul>
+                        <a href="https://dedeyeinc.com" class="side-logo"></a>
+                        <li><a href="https://dedeyeinc.com" class="side-nav-link">Home</a></li>
+                        <li><a href="https://dedeyeinc.com/#showreel_text" class="side-nav-link">Reels</a></li>
+                        <li><a href="https://dedeyeinc.com/#portfolio_text" class="side-nav-link">Portfolio</a></li>
+                        <!-- <li><a href="https://dedeyeinc.com/Games" class="side-nav-link">Games</a></li>
+                        <li><a href="https://dedeyeinc.com/GalaxyGenerator" class="side-nav-link">Three JS</a></li> -->
+                        <li><a href="https://dedeyeinc.com/AboutMe" class="side-nav-link">About Me</a></li>
+                        <li><a href="https://dedeyeinc.com/Contact" class="side-nav-link">Contact</a></li>
+                    </ul>
+                </aside>
+                <div class="overlay"></div>
+            </header>
+        </section>
+        <div class="grid-showcase">
+            <div class="character_name_div">
+                <h2 class="character_name" id="character_name"> Character Name </h2>
+                <hr>
+            </div>
+            <div class="webgl_div" id="webgl_div">
+                <div class="statsDiv" id="statsDiv"></div>
+                <canvas class="webgl" id="webgl_canvas"></canvas>
+            </div>
+            <div class="stats">
+                <h3 class="stats_title">Statistics<hr></h3>
+                
+                <p class="jointcount" id="jointcount">Joint Count: ???</p>
+                <p class="polycount" id="polycount">Triangle Count: ???</p>
+                <p class="filesize" id="file">GLB File Size: ???</p>
+                <p class="formats" id="formats">Formats Available: ???</p>
+                <!-- <div class="dropdown">
+                    <a href="#" class="download_button">Download</a>
+                    <div class="download-content">
+                        <a href="https://github.com/dedeyeinc-git/Dependencies/blob/0d15dfbd00d2d39ceaabf9cc3b2e3eec5ace36c4/assets/IbernianWarrior/IbernianWarrior_RIG.ma?raw=true"
+                            class="download_ma">Download .MA</a>
+                        <a href="https://github.com/dedeyeinc-git/Dependencies/blob/0d15dfbd00d2d39ceaabf9cc3b2e3eec5ace36c4/assets/IbernianWarrior/IbernianWarrior_v001.glb?raw=true"
+                            class="download_glb">Download .GLB</a>
+                        <a href="https://github.com/dedeyeinc-git/Dependencies/blob/0d15dfbd00d2d39ceaabf9cc3b2e3eec5ace36c4/assets/IbernianWarrior/ibernianWarrior_v001.fbx?raw=true"
+                            class="download_fbx">Download .FBX</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="process">
+
+                <h3 class="process_tech">Technical Challenges<hr></h3>
+                
+                <p class="process_text_1">
+                </p>
+
+                <p class="process_text_2">
+                    This is an asset that was originally for the TV show "See" on Paramount+. It's a scan of Jason Mamoa as the Baba Voss character.
+                    This asset was rushed, which meant it only needed rigging where it was required (the back and belly, mostly), but I thought it was a waste
+                    of a great character. I decided to rig it in my own pipeline, adding in a mouth and teeth so that I can rig a full face for this character.
+                    I was able to easily clean the model and migrate it into my own pipeline using scripts I've made and a maya plugin, Vetala. Some challenges I faced were
+                    due to the nature of how it originally came about, which would be rushed. One example was that there was no inner mouth geo, so I had to find a way to
+                    create the entire inside of the mouth and attach it to the original geometry, all while keeping the old skinning. I successfully did exactly
+                    that. Another challenge was creating a face rig, which is still a work in progress. I'll update this to include that once it's done! But, if you're
+                    curious to see how it's going, then check out my <a href="https://youtube.com/live/P_LLJDK6rU8" >Youtube Lives</a>
+                </p>
+                <p>
+                    ^ ^ PS: If you haven't noticed, there's a controls dropdown menu in the 3D render view above. ^ ^
+                </p>
+                <iframe width="600" height="315" frameborder="0" class="showreel_video" id="showreel_video" controls="controls"
+                    src="https://www.youtube.com/embed/live/AVJE81Glwa0" allowfullscreen ng-show="showvideo" 
+                    style="width: 100%;
+                            height: fit-content;
+                            min-width: 50vw;
+                            min-height: 50vh;
+                            justify-content: space-between;
+                            align-items: center unset;
+                            background: #0c0c0c;
+                            color: #fff;
+                            mask-image: linear-gradient(to bottom,rgb(0, 0, 0)50%, transparent 100%);"></iframe>
+
+                <h3 class="process_lore">Lore<hr></h3>
+                
+                <p class="process_text_3">
+                    A fearless warrior:
+                    Baba Voss is the leader of the Alkenny Tribe, a skilled fighter, and a strong guardian.
+                    A family man:
+                    Baba Voss is the husband of Maghra and the adopted father of Kofun and Haniwa, twins with a dormant sense of sight. He prioritizes the safety of his family and tribe above all else.
+                    A secret:
+                    Baba Voss and Maghra keep the twins' sight a secret to protect them from the Witchfinders. They implore the twins to do the same for their own safety.
+                    A frequent advisor:
+                    Baba Voss seeks advice from Paris, who uses her wisdom to help him find ways to keep the tribe safe.
+                    A sacrifice:
+                    Baba sacrifices himself in a battle with Sibeth and Tormada by detonating a bomb that destroys them.
+                </p>
+                <h3 class="process_future">Future Plans<hr></h3>
+                
+                <p>
+                    We've gone over the technical challenges and growth, the lore and background of the character, and
+                    now it's time to talk about the future! What are the plans
+                    for this guy and other characters like him? Well, I'm going to make video games with them - as best
+                    as I can! It's what I've wanted to do since I was 13 or 14
+                    years old. So, that's what I'll do!
+                </p>
+            </div>
+            <div class="social">
+                <li><a href="https://www.facebook.com/dedeyeinc" target="_blank"><img
+                            src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_facebook.png?raw=true"
+                            alt=""></a></li>
+                <li><a href="https://www.linkedin.com/company/ded-eye-inc/" target="_blank"><img
+                            src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_linkedin.png?raw=true"
+                            alt=""></a></li>
+                <li><a href="https://www.youtube.com/@dedeyeinc" target="_blank"><img
+                            src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_youtube.png?raw=true"
+                            alt=""></a></li>
+                <!-- <li><a href="https://www.pinterest.ca/DEDEYEInc/" target="_blank"><img
+                            src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_pinterest.png?raw=true"
+                            alt=""></a></li> -->
+                <li><a href="https://www.instagram.com/ded_eye_inc/" target="_blank"><img
+                            src="https://github.com/dedeyeinc/dedeyeinc.github.io/blob/e0564944f3b9886c673038eb20c985dc3f31027e/Dependencies/btn_icon_sns_instagram.png?raw=true"
+                            alt=""></a></li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
