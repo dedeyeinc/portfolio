@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js RPG Game</title>
+  <script type="module" crossorigin src="./assets/index-utQuB45k.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Csot1jDU.css">
+</head>
+<body>
+    <!-- Start Menu (Initial Screen) -->
+    <div id="start-menu" class="overlay">
+        <h1>Three.js RPG Game</h1>
+        <button id="start-button">Start Game</button>
+        <button id="settings-button">Settings</button>
+        <button id="credits-button">Credits</button>
+    </div>
+
+    <!-- Settings Menu -->
+    <div id="settings-menu" class="overlay hidden">
+        <h2>Settings</h2>
+        <label>Volume: <input type="range"></label>
+        <label>Difficulty: 
+            <select>
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+        </label>
+        <button id="back-to-main">Back</button>
+    </div>
+
+    <!-- Credits Menu -->
+    <div id="credits-menu" class="overlay hidden">
+        <h2>Credits</h2>
+        <p>Developed by Mathias Villalobos</p>
+        <p>Special thanks to the Three.js community</p>
+        <button id="back-to-main-credits">Back</button>
+    </div>
+
+     <!-- In-Game UI -->
+     <div id="game-ui" class="ui-panel hidden">
+        <p>Health: 100</p>
+        <p>Mana: 50</p>
+    </div>
+
+    <!-- Menu Toggle Button (Appears in Game) -->
+    <button id="toggle-menu" class="menu-button hidden">☰ Menu</button>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script> -->
+    
+
+</body>
+</html>
